@@ -1,0 +1,71 @@
+body{
+  background-color:lightpink;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  margin:0px;
+}
+
+.navbar{
+  background-color:azure;
+  border-radius: 0;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.navbar-brand h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color:green;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222; /*Text shadow: omma-separated list of shadows to be applied to the text.*/
+  margin-bottom:0px;
+  margin-top:0px;
+  margin-left:0px;
+}
+
+.navbar-brand a{
+  text-decoration: none; /*to avoid the underlining of the text*/
+}
+
+.menu-item{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color:lightpink;
+  border-bottom: 1px solid black;
+}
+/*Main Content*/
+
+
+
+#maincontent div{
+ background-color:azure;
+ border: 2px solid black;
+ height: 2000px;
+}
+
+p {
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+#title{
+  color: green;
+  font-size: 2.1em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 40px;
+}
+
+#sushi h3, #beef h3, #chicken h3{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+section{
+  padding: 0 5px 0 5px;
+}
+
